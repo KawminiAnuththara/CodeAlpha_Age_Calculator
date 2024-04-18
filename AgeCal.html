@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="AgeCal.css">
+    <script defer src="AgeCal.js"></script>
+</head>
+<body>
+
+    <div class="Cal_container">
+        <header>
+            <h1>AGE CALCULATOR</h1>
+        </header>
+ 
+        <div class="label-input">
+            <label>Current Date</label>
+            <label>Enter your Date of Birth</label>
+            
+            
+        </div>
+        <br />
+ 
+       
+        <div class="label-input">
+            <input id="cdate"
+                   type="date"
+                   value="" />
+            <input id="inputDob"
+                   type="date"
+                   value="2000-01-01" />    
+        </div>
+        <br /></br>
+ 
+        <button type="button"
+                onclick="getDOB()">
+            Calculate
+        </button>
+        <br />
+        <div id="currentAge"></div>
+        
+    </div>
+</body>
+</html>
